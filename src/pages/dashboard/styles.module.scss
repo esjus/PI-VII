@@ -9,10 +9,11 @@
   }
   
   .container h1{
+    margin: 10px;
     color: var(--white);
     width: 100%;
     text-align: center;
-    padding: 20px 0px;
+    padding: 10px 0px;
   }
   
   .containerHeader{
@@ -49,4 +50,9 @@
     border: 1px solid var(--white);
     margin: 0px;
     width: 100px;
+}
+
+@media(max-width: 700px){
+  
+ 
 }

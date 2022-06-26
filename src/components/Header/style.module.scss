@@ -1,13 +1,9 @@
-.headerContainer{
-    height: 5rem;
-}
+
 
 .headerContent{
     
-    height: 5rem;
     margin: 0 auto;
     padding: 0 2rem;
-
     display: flex;
     justify-content:space-around;
     align-items: center;
@@ -52,16 +48,12 @@
 }
 
 @media(max-width: 700px){
-    .headerContent{
-        flex-direction: column;
-    
-    }
-    
+  
     .menuNav{
-      padding: 0px;
+      margin-top: 20px;
       flex-direction: column;
       justify-content: center;
-      width: 100%;margin: 0px;
+      width: 100%;
     }
     .item{
       justify-content: center;
@@ -69,7 +61,5 @@
     .item:hover{
         width: 100%;
     }
-    .posicao{
-        margin: auto;
-    }
+   
 }

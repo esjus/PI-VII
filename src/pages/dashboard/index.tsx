@@ -30,7 +30,7 @@ export default function Listarprodutos({produtList}:prodProps){
             <Head>
                 <title>CHAVE - Listar</title>
             </Head>
-            <div>
+            <div className={styles.tudo}>
                 <Header/>
 
 
