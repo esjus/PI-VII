@@ -16,6 +16,7 @@ import {Nav} from '../../components/ui/nav/Nav'
 import {toast} from 'react-toastify'
 
 import {canSSRGuet} from '../../utils/canSSRGuet'
+import {Libras} from '../../components/Libras/Libras'
 
 export default function Login() {
 const {signIn} = useContext(AuthContext)
@@ -52,11 +53,12 @@ async function handleLogin(event: FormEvent) {
     <Head>
       <title>Sistema CHAVE</title>
     </Head>
+    <Libras/>
     <Nav/>
     
     <div className={styles.containerCenter}>
     <div className={styles.login}>
-    <div className={styles.divimg}><Image src={logoImg} alt="Logo" width="350px" height="100px"/></div>
+    <div className={styles.divimg}><Image src={logoImg} alt="Logo"/></div>
     <h1>Login</h1>
       <form onSubmit={handleLogin}>
         <Input placeholder="Digite seu email" type="text" value={email} onChange={ (e) => setEmail(e.target.value)}/>
