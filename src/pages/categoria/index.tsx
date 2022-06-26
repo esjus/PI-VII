@@ -5,6 +5,7 @@ import styles from './style.module.scss'
 import {setupAPIClient} from '../../services/api'
 import { toast } from 'react-toastify'
 import { canSSRAuth } from '../../utils/canSSRAuth'
+import {Footer} from '../../components/ui/footer/Footer'
 
 
 
@@ -49,9 +50,10 @@ export default function Categoria() {
 
 
                 </main>
-
-
+                
+                
             </div>
+            <Footer/>
         </>
     )
 }

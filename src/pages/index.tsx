@@ -6,6 +6,7 @@ import styles from '../../styles/Home.module.scss'
 import logoImg from '../../public/logo.png'
 import {Nav} from '../components/ui/nav/Nav'
 import {Libras} from '../components/Libras/Libras'
+import {Footer} from '../components/ui/footer/Footer'
 
 
 
@@ -92,7 +93,7 @@ export default function Home() {
         </main>
 
      
-
+      <Footer/>
       
 
       

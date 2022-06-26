@@ -5,6 +5,7 @@ import styles from './style.module.scss'
 import {setupAPIClient} from '../../services/api'
 import { useState, FormEvent } from 'react'
 import {toast} from 'react-toastify'
+import {Footer} from '../../components/ui/footer/Footer'
 
 
 
@@ -120,6 +121,7 @@ async function handleRegister(event: FormEvent){
 
 
             </div>
+            <Footer/>
         </>
 
     )

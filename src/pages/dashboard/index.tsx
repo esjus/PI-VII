@@ -6,6 +6,7 @@ import {setupAPIClient} from '../../services/api'
 import { FormEvent, useState } from 'react'
 import {toast} from 'react-toastify'
 import {RiDeleteBin6Line} from 'react-icons/ri'
+import {Footer} from '../../components/ui/footer/Footer'
 
 
 
@@ -38,7 +39,7 @@ export default function Listarprodutos({produtList}:prodProps){
 
 
                 <main className={styles.container}>
-                <h1>Nova entrada de produto</h1>
+                <h1>Todos os Produtos</h1>
                
                  <article className={styles.article}>
                       <table className={styles.table}>
@@ -78,6 +79,7 @@ export default function Listarprodutos({produtList}:prodProps){
 
 
             </div>
+            <Footer/>
         </>
 
     )

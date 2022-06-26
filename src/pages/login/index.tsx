@@ -16,6 +16,7 @@ import {Nav} from '../../components/ui/nav/Nav'
 import {toast} from 'react-toastify'
 
 import {canSSRGuet} from '../../utils/canSSRGuet'
+import {Footer} from '../../components/ui/footer/Footer'
 
 
 export default function Login() {
@@ -82,7 +83,7 @@ async function handleLogin(event: FormEvent) {
       </div>
      
     </div>
-   
+   <Footer/>
    
    </>
   )

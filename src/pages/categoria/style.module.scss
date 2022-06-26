@@ -2,10 +2,13 @@
     max-width: 720px;
     margin: 4rem auto; 
     padding: 0 2rem;
+   height: 80%;
 
     display: flex;
     justify-content: space-between;
     flex-direction: column;
+
+ 
 }
 
 .container h1{
@@ -40,3 +43,4 @@
     border-radius: 0.3rem;
     color: var(--dark-700);
 }
+

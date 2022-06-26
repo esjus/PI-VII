@@ -5,6 +5,7 @@ import styles from './style.module.scss'
 import {setupAPIClient} from '../../services/api'
 import { FormEvent, useState } from 'react'
 import {toast} from 'react-toastify'
+import {Footer} from '../../components/ui/footer/Footer'
 
 
 
@@ -75,7 +76,7 @@ export default function Entradaitem({produtList}:prodProps){
 
 
                 <main className={styles.container}>
-                <h1>Entrada de produto</h1>
+                <h1>Entrada de Produto</h1>
                 <form className={styles.form} onSubmit={pHandleRegister}>
                     <select value={prodSelected} onChange={handleProduto}>
                       {produtos.map((item, index)=>{
@@ -113,6 +114,7 @@ export default function Entradaitem({produtList}:prodProps){
 
 
             </div>
+            <Footer/>
         </>
 
     )

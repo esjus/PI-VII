@@ -6,6 +6,7 @@ import styles from './style.module.scss'
 import {setupAPIClient} from '../../services/api'
 import { FormEvent, useState } from 'react'
 import {toast} from 'react-toastify'
+import {Footer} from '../../components/ui/footer/Footer'
 
 
 
@@ -111,6 +112,7 @@ export default function DeleteItem({produtList}:prodProps){
 
 
             </div>
+            <Footer/>
         </>
 
     )
