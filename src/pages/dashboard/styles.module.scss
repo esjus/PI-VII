@@ -1,0 +1,52 @@
+
+.container{
+    max-width: 1000px;
+    margin: auto; 
+    padding: 0 2rem;
+    display: flex;
+    flex-direction: column;
+  
+  }
+  
+  .container h1{
+    color: var(--white);
+    width: 100%;
+    text-align: center;
+    padding: 20px 0px;
+  }
+  
+  .containerHeader{
+    display: flex;
+    flex-direction: row;
+  
+    button{
+      background: transparent;
+      border:0;
+      margin-left: 1rem;
+    }
+  
+  }
+  .article{
+    display: flex;
+    flex-direction: column;
+  }
+
+  
+.table{
+    border: 5px solid var(--white);
+    width: 100%;
+    font-size: 1.2rem;
+    text-align: center;
+    background-color: var(--gray-100);
+    margin: auto;
+
+}
+.tr{
+    height: 20px;
+}
+
+.td{
+    border: 1px solid var(--white);
+    margin: 0px;
+    width: 100px;
+}
