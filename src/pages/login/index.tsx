@@ -83,8 +83,9 @@ async function handleLogin(event: FormEvent) {
       </div>
      
     </div>
+    <div className={styles.f}>
    <Footer/>
-   
+   </div>
    </>
   )
 }

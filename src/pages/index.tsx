@@ -92,10 +92,10 @@ export default function Home() {
 
         </main>
 
-     
+        
+     <div className={styles.f}>
       <Footer/>
-      
-
+      </div>
       
     </>
 

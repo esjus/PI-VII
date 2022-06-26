@@ -86,7 +86,9 @@ export default function SignUp() {
             </div>
 
             </div>
+            <div className={styles.f}>
             <Footer/>
+            </div>
         </>
     )
 }
