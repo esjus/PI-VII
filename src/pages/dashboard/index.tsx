@@ -34,7 +34,7 @@ export default function Listarprodutos({produtList}:prodProps){
             </Head>
             <div className={styles.tudo}>
                 <Header/>
-                <Libras/>
+                
 
 
                 <main className={styles.container}>
@@ -72,7 +72,7 @@ export default function Listarprodutos({produtList}:prodProps){
                        </tbody>
                        </table>
                        </article> 
-
+                       <Libras/>
 
                 </main>
 
