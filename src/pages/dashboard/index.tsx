@@ -6,6 +6,8 @@ import {setupAPIClient} from '../../services/api'
 import { FormEvent, useState } from 'react'
 import {toast} from 'react-toastify'
 import {RiDeleteBin6Line} from 'react-icons/ri'
+import {Libras} from '../../components/Libras/Libras'
+
 
 
 
@@ -32,6 +34,7 @@ export default function Listarprodutos({produtList}:prodProps){
             </Head>
             <div className={styles.tudo}>
                 <Header/>
+                <Libras/>
 
 
                 <main className={styles.container}>

@@ -5,6 +5,7 @@ import styles from './style.module.scss'
 import {setupAPIClient} from '../../services/api'
 import { toast } from 'react-toastify'
 import { canSSRAuth } from '../../utils/canSSRAuth'
+import {Libras} from '../../components/Libras/Libras'
 
 
 export default function Categoria() {
@@ -33,6 +34,7 @@ export default function Categoria() {
             </Head>
             <div>
                 <Header />
+                <Libras/>
                 <main className={styles.container}>
                     <h1>Nova Categoria </h1>
                     <form className={styles.form} onSubmit={handleRegister}>
@@ -43,6 +45,7 @@ export default function Categoria() {
 
                         <button type="submit" className={styles.buttonAdd}>Cadastrar</button>
                     </form>
+
 
 
                 </main>
