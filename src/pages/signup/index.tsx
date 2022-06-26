@@ -11,7 +11,6 @@ import {AuthContext} from '../../contexts/AuthContext'
 import {toast} from 'react-toastify'
 import {Nav} from '../../components/ui/nav/Nav'
 import {Footer} from '../../components/ui/footer/Footer'
-import {Libras} from '../../components/Libras/Libras'
 
 
 
@@ -53,7 +52,7 @@ export default function SignUp() {
             </Head>
             <div className={styles.alinhamento}>
             <Nav/>
-            <Libras/>
+         
             <div className={styles.containerCenter}>
           
 

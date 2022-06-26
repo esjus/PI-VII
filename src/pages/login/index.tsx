@@ -16,7 +16,7 @@ import {Nav} from '../../components/ui/nav/Nav'
 import {toast} from 'react-toastify'
 
 import {canSSRGuet} from '../../utils/canSSRGuet'
-import {Libras} from '../../components/Libras/Libras'
+
 
 export default function Login() {
 const {signIn} = useContext(AuthContext)
@@ -53,7 +53,7 @@ async function handleLogin(event: FormEvent) {
     <Head>
       <title>Sistema CHAVE</title>
     </Head>
-    <Libras/>
+    
     <Nav/>
     
     <div className={styles.containerCenter}>

@@ -5,7 +5,6 @@ import styles from './style.module.scss'
 import {setupAPIClient} from '../../services/api'
 import { FormEvent, useState } from 'react'
 import {toast} from 'react-toastify'
-import {Libras} from '../../components/Libras/Libras'
 
 
 
@@ -71,7 +70,6 @@ export default function Saidaitem({produtList}:prodProps){
             </Head>
             <div>
                 <Header/>
-                <Libras/>
 
 
                 <main className={styles.container}>

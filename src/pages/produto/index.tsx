@@ -5,7 +5,6 @@ import styles from './style.module.scss'
 import {setupAPIClient} from '../../services/api'
 import { useState, FormEvent } from 'react'
 import {toast} from 'react-toastify'
-import {Libras} from '../../components/Libras/Libras'
 
 
 
@@ -77,7 +76,7 @@ async function handleRegister(event: FormEvent){
             </Head>
             <div>
                 <Header/>
-                <Libras/>
+                
 
                 <main className={styles.container}>
                 <h1>Novo Produto</h1>
