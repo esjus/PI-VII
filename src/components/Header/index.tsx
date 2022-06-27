@@ -28,7 +28,7 @@ export function Header() {
                         <a>Nova Categoria</a>
                     </Link>
                     <Link href="/produto">
-                        <a>Novo produto</a>
+                        <a>Novo Produto</a>
                     </Link>
                     <Link href="/entradaitem">
                         <a>Entrada de Produto</a>
