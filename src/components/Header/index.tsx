@@ -31,10 +31,10 @@ export function Header() {
                         <a>Novo produto</a>
                     </Link>
                     <Link href="/entradaitem">
-                        <a>Entrada de produto</a>
+                        <a>Entrada de Produto</a>
                     </Link>
                     <Link href="/saidaitem">
-                        <a>Saída de produto</a>
+                        <a>Saída de Produto</a>
                     </Link>
                     <Link href="/deleteitem">
                         <a>Deletar Produto</a>
