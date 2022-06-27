@@ -52,7 +52,7 @@ async function handleLogin(event: FormEvent) {
   return (
    <>
     <Head>
-      <title>Sistema CHAVE</title>
+      <title>Login - Sistema CHAVE</title>
     </Head>
     
     <Nav/>

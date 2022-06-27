@@ -16,7 +16,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>teste</title>
+        <title>Chave-Sistema de controle de Estoque</title>
       </Head>
       <Libras/>
      
